@@ -217,7 +217,7 @@ const Game: React.FC = () => {
   return (
     <div className="game-container">
       <header className="game-header">
-        <h1 className="game-title">Zip Puzzle</h1>
+        <h1 className="game-title">Signal Grid</h1>
         <div className="game-controls">
           <div className="grid-size-selector">
             <label htmlFor="grid-size">Grid Size:</label>
@@ -291,7 +291,7 @@ const Game: React.FC = () => {
 
           {gameMode === 'idle' && (
             <div className="welcome-message">
-              <h2>Welcome to Zip Puzzle!</h2>
+              <h2>Welcome to Signal Grid!</h2>
               <p>
                 Connect the numbered dots in order by drawing a continuous path
                 that fills the entire grid.
