@@ -1,3 +1,6 @@
+## Customization
+This project is a fork of [k4l397/zip-puzzle-game](https://github.com/k4l397/zip-puzzle-game), originally licensed under MIT.  
+Customizations include Product Radio branding, new puzzle sets, and UI reskin.
 # 🧩 Zip Puzzle Game
 
 A modern, web-based puzzle game inspired by LinkedIn's Zip puzzle. Connect numbered dots in sequence by drawing a continuous path that fills the entire grid.
