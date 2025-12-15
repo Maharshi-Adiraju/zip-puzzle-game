@@ -217,7 +217,16 @@ const Game: React.FC = () => {
   return (
     <div className="game-container">
       <header className="game-header">
-        <h1 className="game-title">Signal Grid</h1>
+        <h1 className="game-title">
+  <a href="https://maharshi-adiraju.github.io/productradio/" 
+     target="_blank" 
+     rel="noopener noreferrer"
+     style={{ textDecoration: 'none', color: 'inherit' }}>
+    Product Radio
+  </a>
+</h1>
+
+       
         <div className="game-controls">
           <div className="grid-size-selector">
             <label htmlFor="grid-size">Grid Size:</label>
