@@ -299,16 +299,18 @@ const Game: React.FC = () => {
           )}
 
           {gameMode === 'idle' && (
-            <div className="welcome-message">
-              <h2>Welcome to Signal Grid!</h2>
-              <p>
-                Connect the numbered dots in order by drawing a continuous path
-                that fills the entire grid.
-              </p>
-              <button className="start-btn" onClick={handleNewPuzzle}>
-                Start Playing
-              </button>
-            </div>
+<div className="welcome-message">
+  <h2>Welcome to Signal Grid — an interactive transmission!</h2>
+  <p>
+    Tune in and connect the numbered signals in sequence. 
+    Draw a single continuous path that fills the entire grid, 
+    practicing the Product Radio way: think with clarity, build with focus, 
+    and lead the path to completion.
+  </p>
+  <button className="start-btn" onClick={handleNewPuzzle}>
+    Start Playing
+  </button>
+</div>
           )}
         </div>
       </div>
